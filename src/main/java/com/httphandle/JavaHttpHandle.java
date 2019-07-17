@@ -20,8 +20,8 @@ public class JavaHttpHandle {
     public static void main(String[] args){
         
         JavaHttpHandle jhh = new JavaHttpHandle();
-//        jhh.sendGet("http://www.baidu.com");
-        jhh.sendPost("http://127.0.0.1:5000/user/login.do", "username=aa&password=qq");
+        jhh.sendGet("http://www.baidu.com");
+//        jhh.sendPost("http://127.0.0.1:5000/user/login.do", "username=aa&password=qq");
                 
     }
 
